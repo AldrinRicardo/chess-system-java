@@ -14,6 +14,7 @@ public class ChessMatch {
 		initialSetup();
 	}
 	
+	//Return the pieces on the board after the game started
 	public ChessPiece[][] getPieces() {
 		ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
 		for (int i=0; i<board.getRows(); i++) {
@@ -26,7 +27,7 @@ public class ChessMatch {
 	
 	public void initialSetup() {
 		board.placePiece(new Rook(board, Color.WHITE), new Position(2, 1));
-		board.placePiece(new Rook(board, Color.WHITE), new Position(4, 5));
+		board.placePiece(new Rook(board, Color.WHITE), new Position(3, 1));
 		board.placePiece(new King(board, Color.BLACK), new Position(7, 3));
 	}
 	
