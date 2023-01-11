@@ -10,8 +10,18 @@ Feito baseado no mesmo projeto parte do curso completo de Java por Nélio Alves 
 ## Tecnologias utilizadas
 - Java (IDE Eclipse)
 
-## Como executar
-Executável no terminal do Git Bash. Possui coloração especial para diferenciar as peças das posições vazias.
+## Executando o projeto
+```bash
+# clonar repositório
+git clone https://github.com/AldrinRicardo/chess-system-java
+
+# entrar na pasta bin
+cd bin
+
+# executar o projeto 
+java application/Program
+```
+A aplicação possui coloração especial, para diferenciar as peças brancas das pretas.  
 
 ## Autor
 Aldrin Ricardo
